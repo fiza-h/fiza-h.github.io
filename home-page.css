@@ -147,6 +147,7 @@ button {
   button {
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
   }
   .about-me {
     flex-direction: column;
@@ -181,7 +182,19 @@ button {
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 700;
-    margin-top: 8%;
+    margin-top: 1vh;
+    font-size: ;
+  }
+  .projs {
+
+  }
+  .column-proj {
+    flex-direction: row;
+    
+  }
+  .projs .elements {
+    display: flex;
+    flex-direction: column;
   }
 
 }
