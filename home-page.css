@@ -109,3 +109,77 @@ button {
   button:active {
     transform: scale(0.9);
   }
+
+/*mobile screen only*/
+@media only screen and (max-width:450px) {
+
+  .navbar {
+    display: none;
+  }
+  .image {
+    display: none;
+  }
+  .home-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    margin-bottom: 0%;
+  }
+  .header h1 {
+    padding: 0;
+    text-align: center;
+  }
+  .header h2 {
+    padding-left: 1.2%;
+    text-align: center;
+    
+  }
+  .header p {
+    padding-top: 15%;
+    padding-left: 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .profile-pic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-pic img {
+    width: 110%;
+    margin-top: 30%;
+  }
+  .info {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    margin-top: 8%;
+  }
+  .info h5 {
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 0.8;
+  }
+  .info span {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .info p {
+    margin-right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 700;
+    margin-top: 8%;
+  }
+
+}

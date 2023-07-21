@@ -58,8 +58,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 100px;
-    
+  margin-bottom: 100px; 
 }
 .header h1 {
     color: white;
