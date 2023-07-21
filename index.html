@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css" media="screen and (max-width: 600px)"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home-page.css">
+  </head>
+<body>
+    <!-- Loading screen -->
+    <!-- <div class="loading-screen"> -->
+        <!-- Customize the loading screen with your preferred styles and animations -->
+        <!-- <div class="hourglassBackground">
+            <div class="hourglassContainer">
+              <div class="hourglassCurves"></div>
+              <div class="hourglassCapTop"></div>
+              <div class="hourglassGlassTop"></div>
+              <div class="hourglassSand"></div>
+              <div class="hourglassSandStream"></div>
+              <div class="hourglassCapBottom"></div>
+              <div class="hourglassGlass"></div>
+            </div>
+          </div> -->
+    <!-- </div> -->
+    <div class="parentWrapper">
+        <div class="navMenu">
+            <nav class="navbar">
+                <ul class="nav-links">
+                <li><a href="#home-page">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projs">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>   
+        </div>       
+        <div class="home-page" id="home-page">
+            <div class="header">
+                <h2>Hello World,</h2>
+                <h1>Fiza here!</h1>
+                <p>I'm glad you stopped by my portfolio website!</p>
+                <button id="scrollButton">GET TO KNOW ME</button>
+            </div>
+            <div class="image">
+                <img src="Programming-cuate-cropped.png" alt="girl coding">
+            </div>
+        </div>
+    </div>
+    <div class="about-me" id="about-me">
+        <div class="profile-pic">
+            <img src="profile-pic.png" alt="profile-pic">
+        </div>
+        <div class="info">
+            <h5>I am Fiza Hussain:
+                <br>
+                <br>
+                <span class="sub-heading">A Front-End Developer 
+                    <br>
+                    based in Karachi, Pakistan
+                </span>
+            </h5>
+            <p>
+                I am a Computer Science sophomore at IBA, Karachi. Besides my studies, I'm a passionate front-end developer. I have a proficient command over HTML, CSS, and JavaScript, and I'm constantly building cool projects in my free time. Not only that, but I can also code in Java and Python.
+                <br>
+                <br>
+                I'm on a journey to expand my skills, learn new technologies, and create awesome projects. If you want to chat about programming, discuss the latest F1 race, or swap book recommendations, feel free to reach out!
+            </p>
+        </div>
+    </div>
+
+    <div class="projs" id="projs">
+      <div class="column-proj">
+        <h5>Projects</h5>
+        <div class="elements">
+          <a href="https://github.com/fiza-h/MS-Paint-in-Java" target="_blank">
+            <div class="card-proj">
+              <img src="cardpics\1.png" alt="ms-paint-pic">
+              <div class="card__content">
+                <p class="card__title">MS Paint in Java</p>
+                <p class="card__description">Using OOP concepts, the program features a custom-built UI. The interface includes buttons, images, and graphical elements. The program allows users to create and manipulate geometric shapes through drag-and-drop motions and supports freehand drawing.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.canva.com/design/DAFURRS9O00/eBCiIczmVYIn0avekYlNMA/view?utm_content=DAFURRS9O00&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">
+            <div class="card-proj">
+              <img src="cardpics\2.png" alt="newsletter">
+              <div class="card__content">
+                <p class="card__title">Annual College Newsletter</p>
+                <p class="card__description">Worked with the editorial team to design an engaging newsletter, conveying the institute's message and branding. Led and managed designers using Adobe Photoshop, Illustrator, and Canva.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://github.com/fiza-h/Ant-Game-Java" target="_blank">
+            <div class="card-proj">
+              <img src="cardpics\3.png" alt="ant-game">
+              <div class="card__content">
+                <p class="card__title">Ant Game</p>
+                <p class="card__description">In this engaging ant game, ants emerge from the bottom, and the user can squash them by clicking the mouse. The game keeps track of the score on the screen, providing an interactive and challenging experience.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>    
+    <div class="experience" id="experience">
+      <div class="container">
+        <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
+          <!-- Timeline -->
+          <ul class="swiper-pagination-custom">
+            <li class='swiper-pagination-switch first active'><span class='switch-title'>Education</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>Internships</span></li>
+            <li class='swiper-pagination-switch'><span class='switch-title'>Certifications</span></li>
+            <li class='swiper-pagination-switch last'><span class='switch-title'>Skills</span></li>
+          </ul>
+          <!-- Progressbar -->
+          <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+          <!-- Swiper -->
+          <div class="swiper swiper-container swiper-container--timeline">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <span class="title">
+                    <div class="text">
+                        <p>2022 - 2026</p>
+                        <h2>Bachelor of Computer Science</h2>
+                        <h5>Institute of Business Administration</h3>
+                        <h6>CGPA: 3.45</h6>
+                        <br>
+                        <p>2020 - 2022</p>
+                        <h2>A Levels</h2>
+                        <h5>Beaconhouse College Program, PECHS</h3>
+                        <h6>Mathematics, Computer Science, Economics</h6>
+                        <h6>3As</h6>
+                        <br>
+                        <p>2018 - 2020</p>
+                        <h2>O Levels</h2>
+                        <h5>Beaconhouse School System</h3>
+                        <h6>Pre-Engineering</h6>
+                        <h6>3A*s & 6As</h6>
+                    </div>
+              </span>
+            </div>
+              <div class="swiper-slide">
+                <span class="title">
+                    <div class="text fit">
+                        <p>Dec 2022 – Apr 2023</p>
+                        <h2>Teaching Intern</h2>
+                        <h5>The Citizen’s Foundation</h5>
+                        <ul>
+                            <li>Interned for 120+ hours, supporting students in university preparation.</li>
+                            <li>Implemented diverse teaching strategies, improving comprehension and engagement.</li>
+                            <li>Fostered a positive learning environment, encouraging questions and problem-solving.</li>
+                            <li>Praised by students and colleagues for dedication, patience, and simplified explanations of complex math concepts.</li>
+                        </ul>
+                        <br>
+                        <p>Oct 2018 – Mar 2021</p>
+                        <h2>Volunteer In-Charge</h2>
+                        <h5>Aga Khan University Blood Bank Committee</h5>
+                        <ul>
+                            <li>Assisted and guided new blood donors</li>
+                            <li>Successful completion of several on-site operational and management tasks</li>
+                            <li>Helped to maintain a clean and orderly environment in the hospital</li>
+                            <li>15 – 20 hours of dedicated per month.</li>
+                        </ul>
+                        <br>
+                        <p>Jun 2021 – Jul 2021</p>
+                        <h2>Graphic Design Volunteer</h2>
+                        <h5>Shaur by Lahore University of Management Sciences</h5>
+                        <ul>
+                            <li>Shaur is a student-run initiative for underprivileged education through educational videos.</li>
+                            <li>Managed animation and graphics team for successful project delivery</li>
+                            <li>Over 50 hours of recorded volunteer service.</li>
+                        </ul>
+                    </div>
+              </span>
+            </div>
+              <div class="swiper-slide"><span class="title">
+                <div class="text">
+                <h2>Machine Learning Specialization</h2>
+                <h5>Standford Online</h5>
+                <ul>
+                    <li>Supervised Machine Learning: Regression and Classification</li>
+                    <li>Advanced Learning Algorithms</li>
+                    <li>Unsupervised Learning, Recommenders, Reinforcement Learning</li>
+                </ul>
+                <br>
+                <br>
+                <h2>CS50: Introduction to Programming in Python</h2>
+                <h5>HarvardX</h5>
+                <ul>
+                    <li>Developed a strong foundation in Python programming concepts and syntax.</li>
+                    <li>Acquired skills in problem-solving and algorithm design through coding exercises.</li>
+                    <li>Used basic data analysis using Python libraries such as NumPy and Pandas.</li>
+                    <li>Learnt debugging techniques and best practices in software development.</li>
+                </ul>
+                </div>
+              </span></div>
+              <div class="swiper-slide"><span class="title">
+                <div class="card-skills">
+                    <div class="header-skills">My Skills</div>
+                    <div class="body-skills">
+                      <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-percent-number">90%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 80%"></div>
+                        </div>
+                        <div class="skill-percent-number">80%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percent-number">75%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 85%"></div>
+                        </div>
+                        <div class="skill-percent-number">85%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">Java</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 95%"></div>
+                        </div>
+                        <div class="skill-percent-number">95%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">Adobe Illustrator</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 75%"></div>
+                        </div>
+                        <div class="skill-percent-number">75%</div>
+                      </div>
+                      <div class="skill">
+                        <div class="skill-name">Graphic Design</div>
+                        <div class="skill-level">
+                          <div class="skill-percent" style="width: 90%"></div>
+                        </div>
+                        <div class="skill-percent-number">90%</div>
+                      </div>
+                    </div>
+                  </div>                  
+              </span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <h2>Reach out to me!</h2>
+      <br>
+      <h5>Email</h5>
+      <p>hussainfiza57@gmail.com</p>
+      <p>f.hussain.26749@khi.iba.edu.pk</p>
+        <div class="social-container">
+          <ul class="social-icons">
+              <li><a href="https://www.linkedin.com/in/fizahussain03" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.github.com/fiza-h" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="Resume - Fiza Hussain Updated.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a></li>
+          </ul>
+        </div>
+    </div>
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+var mySwiper = new Swiper(".swiper", {
+  autoHeight: true,
+  autoplay: {
+    delay: 7000,
+    disableOnInteraction: false
+  },
+  speed: 500,
+  direction: "horizontal",
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar"
+  },
+  loop: false,
+  effect: "slide",
+  spaceBetween: 30,
+  on: {
+    init: function () {
+      $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+      $(".swiper-pagination-custom .swiper-pagination-switch").eq(0).addClass("active");
+    },
+    slideChangeTransitionStart: function () {
+      $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+      $(".swiper-pagination-custom .swiper-pagination-switch").eq(mySwiper.realIndex).addClass("active");
+    }
+  }
+});
+$(".swiper-pagination-custom .swiper-pagination-switch").click(function () {
+  mySwiper.slideTo($(this).index());
+  $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
+  $(this).addClass("active");
+});
+});
+
+  </script>
+    <script>
+      document.getElementById("scrollButton").addEventListener("click", function() {
+            const section2 = document.getElementById("about-me");
+            section2.scrollIntoView({ 
+                behavior: "smooth",
+                block:"start"
+            });
+        });
+
+    </script>
+</body>
+</html>
