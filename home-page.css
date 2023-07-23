@@ -255,7 +255,6 @@ button {
     font-size: x-large;
     text-align: center;
   }
-
   .swiper-pagination-switch .switch-title {
     font-size: 10px; /* Adjust the font size as per your preference */
   }
@@ -263,10 +262,52 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%; /* This ensures the .text div takes the full height of its parent */
+    height: 80%; /* This ensures the .text div takes the full height of its parent */
     text-align: center;
   }
-  .swiper-container-wrapperf--timeline .swiper-slide .title .text p{
-    font-size: x-small;
+  .text p {
+    font-size: small;
+    font-weight: bold;
+  }
+  .text h2 {
+    font-size: medium !important;
+    font-weight: bold;
+  }
+  .text h5 {
+    font-size: small !important;
+  }
+  .text h6 {
+    font-size: small !important;
+  }
+  .text li {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 8%;
+    list-style: disc;
+  }
+  .card-skills {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+  .header-skills {
+    font-size: small;
+  }
+  .skill-name {
+    font-size: small;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact h2{
+    font-size: medium !important;
+  }
+  .contact h5 {
+    font-size: medium !important;
+  }
+  .contact p {
+    font-size: x-small !important;
   }
 } 

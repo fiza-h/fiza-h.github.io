@@ -404,6 +404,10 @@ body {
   width: 100%;
   height: 50vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 /* @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
@@ -567,4 +571,43 @@ body {
   font-size: 14px;
   color: #777;
   line-height: 1;
+}
+footer {
+  font-family: 'Montserrat';
+  background-color: lightskyblue;
+  color: #000;
+  font-size: x-small;
+  text-align: center;
+  font-weight: bold;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%; /* This ensures the .text div takes the full height of its parent */
+  text-align: center;
+}
+.text p {
+  font-size: small;
+  font-weight: bold;
+}
+.text h2 {
+  font-size: medium !important;
+  font-weight: bold;
+}
+.text h5 {
+  font-size: small !important;
+}
+.text h6 {
+  font-size: small !important;
+}
+.text li {
+  list-style: none;
+}
+.card-skills {
+  margin: 0 auto;
+  margin-top: 20%;
+}
+.illustration {
+  z-index: 1000;
 }
