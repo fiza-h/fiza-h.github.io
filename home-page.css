@@ -149,11 +149,16 @@ button {
   button {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
     font-size: small;
+    z-index: 10;
   }
   .about-me {
+    display: flex;
     flex-direction: column;
+    justify-content: center; /* Vertically center the elements */
+    align-items: center; /* Horizontally center the elements */
+    height: 100%;
   }
   .img-400 {
     position: absolute;
@@ -172,7 +177,7 @@ button {
     margin-right: auto;
   }
   .profile-pic img {
-    width: 110%;
+    width: 13vh;
     margin-top: 23%;
   }
   .info {
@@ -184,21 +189,22 @@ button {
     align-items: center;
   }
   .info h5 {
-    font-size: 1.8em;
+    font-size: x-large;
     text-align: center;
     line-height: 0.8;
   }
   .info span {
-    font-size: 20px;
+    font-size: medium;
     font-weight: bolder;
   }
   .info p {
     margin-right: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 13%;
+    margin-right: 13%;
     font-weight: 700;
-    margin-top: 1vh;
-    font-size: ;
+    margin-top: 3vh;
+    font-size: medium;
+    text-align: justify;
   }
   .projs {
 
