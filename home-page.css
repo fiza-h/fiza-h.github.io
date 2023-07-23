@@ -210,12 +210,41 @@ button {
 
   }
   .column-proj {
-    flex-direction: row;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .projs .elements {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
-
+  .card-proj {
+    padding: 10%;
+    width: 210px;
+    height: 133.33px;
+    margin: 0 auto;
+    margin-bottom: 15%;
+  }
+  .card__title {
+    font-size: small;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .card__description {
+    font-size: x-small;
+    padding-top: 0;
+  }
+  .card__content {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+  }
+  .heading h5 {
+    font-size: x-large;
+    text-align: center;
+  }
 }
