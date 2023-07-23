@@ -172,29 +172,37 @@ button {
     opacity: 0.1; /* Set the opacity to your desired value (0.2 = 20% opacity) */
     z-index: 0; /* Place the background behind the content */
   }
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-info {
+    display: flex;
+    flex-direction: column;
+  }
   .profile-pic {
     margin-left: auto;
     margin-right: auto;
   }
   .profile-pic img {
     width: 13vh;
-    margin-top: 23%;
+    margin-top: 0%;
   }
   .info {
     width: 100%;
     margin: auto;
     padding: 0;
-    margin-top: 8%;
-    justify-content: center;
-    align-items: center;
+    margin-top: 0%;
   }
   .info h5 {
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     line-height: 0.8;
   }
   .info span {
-    font-size: medium;
+    font-size: small;
     font-weight: bolder;
   }
   .info p {
@@ -203,7 +211,7 @@ button {
     margin-right: 13%;
     font-weight: 700;
     margin-top: 3vh;
-    font-size: medium;
+    font-size: small;
     text-align: justify;
   }
   .projs {
@@ -247,4 +255,18 @@ button {
     font-size: x-large;
     text-align: center;
   }
-}
+
+  .swiper-pagination-switch .switch-title {
+    font-size: 10px; /* Adjust the font size as per your preference */
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* This ensures the .text div takes the full height of its parent */
+    text-align: center;
+  }
+  .swiper-container-wrapperf--timeline .swiper-slide .title .text p{
+    font-size: x-small;
+  }
+} 
